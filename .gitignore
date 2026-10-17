@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.env
+.venv/
+business_monitor.db
+business_monitor.log
