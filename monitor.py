@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Callable
 import requests
 from dotenv import load_dotenv
-From contextlib import contextmanager
+from contextlib import contextmanager
 
 load_dotenv()
 API_URL = os.getenv("API_URL", "https://dummyjson.com/products?limit=10")
